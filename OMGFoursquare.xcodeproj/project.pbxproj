@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50D6D8BB14A23FED0013BD1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8BA14A23FED0013BD1C /* Foundation.framework */; };
+		50D6D8C114A23FED0013BD1C /* OMGFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6D8C014A23FED0013BD1C /* OMGFoursquare.m */; };
+		50D6D8C914A23FED0013BD1C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8C814A23FED0013BD1C /* SenTestingKit.framework */; };
+		50D6D8CB14A23FED0013BD1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8CA14A23FED0013BD1C /* UIKit.framework */; };
+		50D6D8CC14A23FED0013BD1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8BA14A23FED0013BD1C /* Foundation.framework */; };
+		50D6D8CF14A23FED0013BD1C /* libOMGFoursquare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */; };
+		50D6D8D514A23FED0013BD1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D6D8D314A23FED0013BD1C /* InfoPlist.strings */; };
+		50D6D8D814A23FED0013BD1C /* OMGFoursquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6D8D714A23FED0013BD1C /* OMGFoursquareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D6D8CD14A23FED0013BD1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D6D8AE14A23FED0013BD1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D6D8B614A23FED0013BD1C;
+			remoteInfo = OMGFoursquare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOMGFoursquare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D6D8BA14A23FED0013BD1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50D6D8BE14A23FED0013BD1C /* OMGFoursquare-Prefix.pch */ = {isa = PBXFileReference; path = "OMGFoursquare-Prefix.pch"; sourceTree = "<group>"; };
+		50D6D8BF14A23FED0013BD1C /* OMGFoursquare.h */ = {isa = PBXFileReference; path = OMGFoursquare.h; sourceTree = "<group>"; };
+		50D6D8C014A23FED0013BD1C /* OMGFoursquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMGFoursquare.m; sourceTree = "<group>"; };
+		50D6D8C714A23FED0013BD1C /* OMGFoursquareTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMGFoursquareTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D6D8C814A23FED0013BD1C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		50D6D8CA14A23FED0013BD1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		50D6D8D214A23FED0013BD1C /* OMGFoursquareTests-Info.plist */ = {isa = PBXFileReference; path = "OMGFoursquareTests-Info.plist"; sourceTree = "<group>"; };
+		50D6D8D414A23FED0013BD1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50D6D8D614A23FED0013BD1C /* OMGFoursquareTests.h */ = {isa = PBXFileReference; path = OMGFoursquareTests.h; sourceTree = "<group>"; };
+		50D6D8D714A23FED0013BD1C /* OMGFoursquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMGFoursquareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D6D8B414A23FED0013BD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6D8BB14A23FED0013BD1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D6D8C314A23FED0013BD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6D8C914A23FED0013BD1C /* SenTestingKit.framework in Frameworks */,
+				50D6D8CB14A23FED0013BD1C /* UIKit.framework in Frameworks */,
+				50D6D8CC14A23FED0013BD1C /* Foundation.framework in Frameworks */,
+				50D6D8CF14A23FED0013BD1C /* libOMGFoursquare.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D6D8AC14A23FED0013BD1C = {
+			isa = PBXGroup;
+			children = (
+				50D6D8BC14A23FED0013BD1C /* OMGFoursquare */,
+				50D6D8D014A23FED0013BD1C /* OMGFoursquareTests */,
+				50D6D8B914A23FED0013BD1C /* Frameworks */,
+				50D6D8B814A23FED0013BD1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D6D8B814A23FED0013BD1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */,
+				50D6D8C714A23FED0013BD1C /* OMGFoursquareTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D6D8B914A23FED0013BD1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50D6D8BA14A23FED0013BD1C /* Foundation.framework */,
+				50D6D8C814A23FED0013BD1C /* SenTestingKit.framework */,
+				50D6D8CA14A23FED0013BD1C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50D6D8BC14A23FED0013BD1C /* OMGFoursquare */ = {
+			isa = PBXGroup;
+			children = (
+				50D6D8BF14A23FED0013BD1C /* OMGFoursquare.h */,
+				50D6D8C014A23FED0013BD1C /* OMGFoursquare.m */,
+				50D6D8BD14A23FED0013BD1C /* Supporting Files */,
+			);
+			path = OMGFoursquare;
+			sourceTree = "<group>";
+		};
+		50D6D8BD14A23FED0013BD1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D6D8BE14A23FED0013BD1C /* OMGFoursquare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50D6D8D014A23FED0013BD1C /* OMGFoursquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D6D8D614A23FED0013BD1C /* OMGFoursquareTests.h */,
+				50D6D8D714A23FED0013BD1C /* OMGFoursquareTests.m */,
+				50D6D8D114A23FED0013BD1C /* Supporting Files */,
+			);
+			path = OMGFoursquareTests;
+			sourceTree = "<group>";
+		};
+		50D6D8D114A23FED0013BD1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D6D8D214A23FED0013BD1C /* OMGFoursquareTests-Info.plist */,
+				50D6D8D314A23FED0013BD1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50D6D8B514A23FED0013BD1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50D6D8B614A23FED0013BD1C /* OMGFoursquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D6D8DB14A23FED0013BD1C /* Build configuration list for PBXNativeTarget "OMGFoursquare" */;
+			buildPhases = (
+				50D6D8B314A23FED0013BD1C /* Sources */,
+				50D6D8B414A23FED0013BD1C /* Frameworks */,
+				50D6D8B514A23FED0013BD1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMGFoursquare;
+			productName = OMGFoursquare;
+			productReference = 50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50D6D8C614A23FED0013BD1C /* OMGFoursquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D6D8DE14A23FED0013BD1C /* Build configuration list for PBXNativeTarget "OMGFoursquareTests" */;
+			buildPhases = (
+				50D6D8C214A23FED0013BD1C /* Sources */,
+				50D6D8C314A23FED0013BD1C /* Frameworks */,
+				50D6D8C414A23FED0013BD1C /* Resources */,
+				50D6D8C514A23FED0013BD1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D6D8CE14A23FED0013BD1C /* PBXTargetDependency */,
+			);
+			name = OMGFoursquareTests;
+			productName = OMGFoursquareTests;
+			productReference = 50D6D8C714A23FED0013BD1C /* OMGFoursquareTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D6D8AE14A23FED0013BD1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 50D6D8B114A23FED0013BD1C /* Build configuration list for PBXProject "OMGFoursquare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50D6D8AC14A23FED0013BD1C;
+			productRefGroup = 50D6D8B814A23FED0013BD1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D6D8B614A23FED0013BD1C /* OMGFoursquare */,
+				50D6D8C614A23FED0013BD1C /* OMGFoursquareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D6D8C414A23FED0013BD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6D8D514A23FED0013BD1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50D6D8C514A23FED0013BD1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D6D8B314A23FED0013BD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6D8C114A23FED0013BD1C /* OMGFoursquare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D6D8C214A23FED0013BD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D6D8D814A23FED0013BD1C /* OMGFoursquareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D6D8CE14A23FED0013BD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D6D8B614A23FED0013BD1C /* OMGFoursquare */;
+			targetProxy = 50D6D8CD14A23FED0013BD1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50D6D8D314A23FED0013BD1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D6D8D414A23FED0013BD1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D6D8D914A23FED0013BD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50D6D8DA14A23FED0013BD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D6D8DC14A23FED0013BD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OMGFoursquare.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMGFoursquare/OMGFoursquare-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		50D6D8DD14A23FED0013BD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OMGFoursquare.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMGFoursquare/OMGFoursquare-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		50D6D8DF14A23FED0013BD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMGFoursquare/OMGFoursquare-Prefix.pch";
+				INFOPLIST_FILE = "OMGFoursquareTests/OMGFoursquareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		50D6D8E014A23FED0013BD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OMGFoursquare/OMGFoursquare-Prefix.pch";
+				INFOPLIST_FILE = "OMGFoursquareTests/OMGFoursquareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D6D8B114A23FED0013BD1C /* Build configuration list for PBXProject "OMGFoursquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D6D8D914A23FED0013BD1C /* Debug */,
+				50D6D8DA14A23FED0013BD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D6D8DB14A23FED0013BD1C /* Build configuration list for PBXNativeTarget "OMGFoursquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D6D8DC14A23FED0013BD1C /* Debug */,
+				50D6D8DD14A23FED0013BD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50D6D8DE14A23FED0013BD1C /* Build configuration list for PBXNativeTarget "OMGFoursquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D6D8DF14A23FED0013BD1C /* Debug */,
+				50D6D8E014A23FED0013BD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D6D8AE14A23FED0013BD1C /* Project object */;
+}
