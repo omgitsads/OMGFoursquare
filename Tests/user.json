@@ -1,0 +1,267 @@
+{
+    "meta":{
+        "code":200
+    },
+    "notifications":[
+                     {
+                     "type":"notificationTray",
+                     "item":{
+                     "unreadCount":0
+                     }
+                     }
+                     ],
+    "response":{
+        "user":{
+            "id":"309956",
+            "firstName":"Adam",
+            "lastName":"Holt",
+            "photo":"https:\/\/img-s.foursquare.com\/userpix_thumbs\/LKZEWPNXSMU2OSXW.jpg",
+            "gender":"male",
+            "homeCity":"London, UK",
+            "relationship":"self",
+            "contact":{
+                "twitter":"adamholt",
+                "facebook":"500895342",
+                "phone":"07515561427",
+                "email":"ads.noob@gmail.com"
+            },
+            "type":"user",
+            "pings":false,
+            "badges":{
+                "count":12
+            },
+            "mayorships":{
+                "count":0,
+                "items":[
+                
+                ]
+            },
+            "checkins":{
+                "count":143,
+                "items":[
+                         {
+                         "id":"4eea076d6da1d1536cbd57b0",
+                         "createdAt":1323960173,
+                         "type":"checkin",
+                         "timeZone":"Europe\/London",
+                         "venue":{
+                         "id":"4ade0e22f964a520fa6e21e3",
+                         "name":"Simple",
+                         "contact":{
+                         "phone":"01618352526",
+                         "formattedPhone":"0161 835 2526"
+                         },
+                         "location":{
+                         "address":"Tib Street",
+                         "lat":53.483003,
+                         "lng":-2.236181,
+                         "postalCode":"M4 1LA",
+                         "city":"Manchester",
+                         "state":"UK",
+                         "country":"United Kingdom"
+                         },
+                         "categories":[
+                                       {
+                                       "id":"4bf58dd8d48988d14e941735",
+                                       "name":"American Restaurant",
+                                       "pluralName":"American Restaurants",
+                                       "shortName":"American",
+                                       "icon":{
+                                       "prefix":"https:\/\/foursquare.com\/img\/categories\/food\/default_",
+                                       "sizes":[
+                                                32,
+                                                44,
+                                                64,
+                                                88,
+                                                256
+                                                ],
+                                       "name":".png"
+                                       },
+                                       "primary":true
+                                       }
+                                       ],
+                         "verified":true,
+                         "stats":{
+                         "checkinsCount":382,
+                         "usersCount":253,
+                         "tipCount":16
+                         }
+                         },
+                         "photos":{
+                         "count":0,
+                         "items":[
+                         
+                         ]
+                         },
+                         "comments":{
+                         "count":0,
+                         "items":[
+                         
+                         ]
+                         }
+                         }
+                         ]
+            },
+            "friends":{
+                "count":31,
+                "groups":[
+                          {
+                          "type":"friends",
+                          "name":"Mutual friends",
+                          "count":0,
+                          "items":[
+                          
+                          ]
+                          },
+                          {
+                          "type":"others",
+                          "name":"Other friends",
+                          "count":31,
+                          "items":[
+                                   {
+                                   "id":"690276",
+                                   "firstName":"Shane",
+                                   "lastName":"Jones",
+                                   "photo":"https:\/\/img-s.foursquare.com\/userpix_thumbs\/GAGBMA0HOODNVEC4.jpg",
+                                   "gender":"male",
+                                   "homeCity":"Manchester, Greater Manchester",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"1108864",
+                                   "firstName":"Paul",
+                                   "lastName":"Ingham",
+                                   "photo":"https:\/\/img-s.foursquare.com\/userpix_thumbs\/NHJZCXIHFPG1SZTR.jpg",
+                                   "gender":"male",
+                                   "homeCity":"Manchester, UK",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"1125640",
+                                   "firstName":"Peter",
+                                   "lastName":"Golov",
+                                   "photo":"https:\/\/foursquare.com\/img\/blank_boy.png",
+                                   "gender":"male",
+                                   "homeCity":"Manchester, UK",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"1313611",
+                                   "firstName":"James",
+                                   "lastName":"Cotterill",
+                                   "photo":"https:\/\/foursquare.com\/img\/blank_boy.png",
+                                   "gender":"male",
+                                   "homeCity":"Manchester, UK",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"1372299",
+                                   "firstName":"Ben",
+                                   "lastName":"Aldred",
+                                   "photo":"https:\/\/img-s.foursquare.com\/userpix_thumbs\/RHUPAMYNOI0HS2JF.jpg",
+                                   "gender":"male",
+                                   "homeCity":"Bromborough, Wirral",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"2167078",
+                                   "firstName":"Rhys",
+                                   "lastName":"Clement-Evans",
+                                   "photo":"https:\/\/foursquare.com\/img\/blank_boy.png",
+                                   "gender":"male",
+                                   "homeCity":"Manchester, UK",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"2627663",
+                                   "firstName":"Sam",
+                                   "lastName":"Hughes",
+                                   "photo":"https:\/\/img-s.foursquare.com\/userpix_thumbs\/1Q3PVRLJMPOUVKYB.jpg",
+                                   "gender":"male",
+                                   "homeCity":"Manchester, UK",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"2845706",
+                                   "firstName":"Alistair",
+                                   "lastName":"Daly",
+                                   "photo":"https:\/\/foursquare.com\/img\/blank_boy.png",
+                                   "gender":"male",
+                                   "homeCity":"Brighton, UK",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"1320599",
+                                   "firstName":"Sarah Rebecca",
+                                   "lastName":"Monks",
+                                   "photo":"https:\/\/img-s.foursquare.com\/userpix_thumbs\/OWWF0ESS1T5DTYBN.jpg",
+                                   "gender":"female",
+                                   "homeCity":"Manchester, UK",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   },
+                                   {
+                                   "id":"4031137",
+                                   "firstName":"Slawomir",
+                                   "lastName":"Wdowka",
+                                   "photo":"https:\/\/img-s.foursquare.com\/userpix_thumbs\/ANRIWHONWT20EWT2.png",
+                                   "gender":"male",
+                                   "homeCity":"Manchester, UK",
+                                   "relationship":"friend",
+                                   "contact":{
+                                   
+                                   }
+                                   }
+                                   ]
+                          }
+                          ]
+            },
+            "following":{
+                "count":0
+            },
+            "requests":{
+                "count":0
+            },
+            "tips":{
+                "count":1
+            },
+            "todos":{
+                "count":0
+            },
+            "photos":{
+                "count":3
+            },
+            "scores":{
+                "recent":0,
+                "max":53,
+                "checkinsCount":0
+            }
+        }
+    }
+}

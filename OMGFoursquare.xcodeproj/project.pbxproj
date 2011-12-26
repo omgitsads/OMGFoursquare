@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5076E07114A28543005307AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8CA14A23FED0013BD1C /* UIKit.framework */; };
+		5076E07214A28543005307AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8BA14A23FED0013BD1C /* Foundation.framework */; };
+		5076E07414A28543005307AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5076E07314A28543005307AF /* CoreGraphics.framework */; };
+		5076E07A14A28543005307AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5076E07814A28543005307AF /* InfoPlist.strings */; };
+		5076E07C14A28543005307AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076E07B14A28543005307AF /* main.m */; };
+		5076E08414A285E3005307AF /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5076E06814A27AF5005307AF /* GHUnitIOS.framework */; };
+		5076E08714A2884D005307AF /* OMGFoursquareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076E08614A2884D005307AF /* OMGFoursquareTest.m */; };
+		5076E08E14A293FE005307AF /* libOMGFoursquare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */; };
+		5076E09014A29959005307AF /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 5076E08F14A29959005307AF /* user.json */; };
+		5076E09E14A3A5FA005307AF /* OMGFoursquareResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5076E09C14A3A5FA005307AF /* OMGFoursquareResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5076E09F14A3A5FA005307AF /* OMGFoursquareResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076E09D14A3A5FA005307AF /* OMGFoursquareResponse.m */; };
+		5076E0A214A3EA4A005307AF /* OMGFoursquareResponseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076E0A114A3EA4A005307AF /* OMGFoursquareResponseTest.m */; };
+		5076E0A414A3F454005307AF /* OMGFoursquare.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D6D8BF14A23FED0013BD1C /* OMGFoursquare.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50D6D8BB14A23FED0013BD1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8BA14A23FED0013BD1C /* Foundation.framework */; };
 		50D6D8C114A23FED0013BD1C /* OMGFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6D8C014A23FED0013BD1C /* OMGFoursquare.m */; };
-		50D6D8C914A23FED0013BD1C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8C814A23FED0013BD1C /* SenTestingKit.framework */; };
-		50D6D8CB14A23FED0013BD1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8CA14A23FED0013BD1C /* UIKit.framework */; };
-		50D6D8CC14A23FED0013BD1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8BA14A23FED0013BD1C /* Foundation.framework */; };
-		50D6D8CF14A23FED0013BD1C /* libOMGFoursquare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */; };
-		50D6D8D514A23FED0013BD1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50D6D8D314A23FED0013BD1C /* InfoPlist.strings */; };
-		50D6D8D814A23FED0013BD1C /* OMGFoursquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D6D8D714A23FED0013BD1C /* OMGFoursquareTests.m */; };
+		50E1B3EB14A62290008F1A82 /* user_failed.json in Resources */ = {isa = PBXBuildFile; fileRef = 50E1B3EA14A62290008F1A82 /* user_failed.json */; };
+		6419C3E4E2D9406FBC1E8F1E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCB580CF16F4161906CFF9D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		50D6D8CD14A23FED0013BD1C /* PBXContainerItemProxy */ = {
+		5076E0A514A3F46A005307AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 50D6D8AE14A23FED0013BD1C /* Project object */;
 			proxyType = 1;
@@ -28,50 +37,94 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5076E06814A27AF5005307AF /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = "../gh-unit/Project-iOS/build/Framework/GHUnitIOS.framework"; sourceTree = "<group>"; };
+		5076E06F14A28543005307AF /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5076E07314A28543005307AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5076E07714A28543005307AF /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		5076E07914A28543005307AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5076E07B14A28543005307AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5076E07D14A28543005307AF /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		5076E08614A2884D005307AF /* OMGFoursquareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGFoursquareTest.m; sourceTree = "<group>"; };
+		5076E08F14A29959005307AF /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+		5076E09C14A3A5FA005307AF /* OMGFoursquareResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGFoursquareResponse.h; sourceTree = "<group>"; };
+		5076E09D14A3A5FA005307AF /* OMGFoursquareResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGFoursquareResponse.m; sourceTree = "<group>"; };
+		5076E0A114A3EA4A005307AF /* OMGFoursquareResponseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGFoursquareResponseTest.m; sourceTree = "<group>"; };
 		50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOMGFoursquare.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D6D8BA14A23FED0013BD1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		50D6D8BE14A23FED0013BD1C /* OMGFoursquare-Prefix.pch */ = {isa = PBXFileReference; path = "OMGFoursquare-Prefix.pch"; sourceTree = "<group>"; };
-		50D6D8BF14A23FED0013BD1C /* OMGFoursquare.h */ = {isa = PBXFileReference; path = OMGFoursquare.h; sourceTree = "<group>"; };
+		50D6D8BE14A23FED0013BD1C /* OMGFoursquare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OMGFoursquare-Prefix.pch"; sourceTree = "<group>"; };
+		50D6D8BF14A23FED0013BD1C /* OMGFoursquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMGFoursquare.h; sourceTree = "<group>"; };
 		50D6D8C014A23FED0013BD1C /* OMGFoursquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMGFoursquare.m; sourceTree = "<group>"; };
-		50D6D8C714A23FED0013BD1C /* OMGFoursquareTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMGFoursquareTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D6D8C814A23FED0013BD1C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		50D6D8CA14A23FED0013BD1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		50D6D8D214A23FED0013BD1C /* OMGFoursquareTests-Info.plist */ = {isa = PBXFileReference; path = "OMGFoursquareTests-Info.plist"; sourceTree = "<group>"; };
-		50D6D8D414A23FED0013BD1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		50D6D8D614A23FED0013BD1C /* OMGFoursquareTests.h */ = {isa = PBXFileReference; path = OMGFoursquareTests.h; sourceTree = "<group>"; };
-		50D6D8D714A23FED0013BD1C /* OMGFoursquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMGFoursquareTests.m; sourceTree = "<group>"; };
+		50E1B3EA14A62290008F1A82 /* user_failed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user_failed.json; sourceTree = "<group>"; };
+		CBCB580CF16F4161906CFF9D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C33E3CCEEB43EB9E939418 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5076E06C14A28543005307AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5076E08E14A293FE005307AF /* libOMGFoursquare.a in Frameworks */,
+				5076E07114A28543005307AF /* UIKit.framework in Frameworks */,
+				5076E08414A285E3005307AF /* GHUnitIOS.framework in Frameworks */,
+				5076E07214A28543005307AF /* Foundation.framework in Frameworks */,
+				5076E07414A28543005307AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		50D6D8B414A23FED0013BD1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				50D6D8BB14A23FED0013BD1C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50D6D8C314A23FED0013BD1C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50D6D8C914A23FED0013BD1C /* SenTestingKit.framework in Frameworks */,
-				50D6D8CB14A23FED0013BD1C /* UIKit.framework in Frameworks */,
-				50D6D8CC14A23FED0013BD1C /* Foundation.framework in Frameworks */,
-				50D6D8CF14A23FED0013BD1C /* libOMGFoursquare.a in Frameworks */,
+				6419C3E4E2D9406FBC1E8F1E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5076E07514A28543005307AF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5076E07614A28543005307AF /* Supporting Files */,
+				5076E08614A2884D005307AF /* OMGFoursquareTest.m */,
+				5076E0A114A3EA4A005307AF /* OMGFoursquareResponseTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5076E07614A28543005307AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5076E09114A29963005307AF /* Fixtures */,
+				5076E07714A28543005307AF /* Tests-Info.plist */,
+				5076E07814A28543005307AF /* InfoPlist.strings */,
+				5076E07B14A28543005307AF /* main.m */,
+				5076E07D14A28543005307AF /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5076E09114A29963005307AF /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				5076E08F14A29959005307AF /* user.json */,
+				50E1B3EA14A62290008F1A82 /* user_failed.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
 		50D6D8AC14A23FED0013BD1C = {
 			isa = PBXGroup;
 			children = (
 				50D6D8BC14A23FED0013BD1C /* OMGFoursquare */,
-				50D6D8D014A23FED0013BD1C /* OMGFoursquareTests */,
+				5076E07514A28543005307AF /* Tests */,
 				50D6D8B914A23FED0013BD1C /* Frameworks */,
 				50D6D8B814A23FED0013BD1C /* Products */,
+				E2C33E3CCEEB43EB9E939418 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */,
-				50D6D8C714A23FED0013BD1C /* OMGFoursquareTests.octest */,
+				5076E06F14A28543005307AF /* Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +140,12 @@
 		50D6D8B914A23FED0013BD1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5076E06814A27AF5005307AF /* GHUnitIOS.framework */,
 				50D6D8BA14A23FED0013BD1C /* Foundation.framework */,
 				50D6D8C814A23FED0013BD1C /* SenTestingKit.framework */,
 				50D6D8CA14A23FED0013BD1C /* UIKit.framework */,
+				CBCB580CF16F4161906CFF9D /* libPods.a */,
+				5076E07314A28543005307AF /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,6 +156,8 @@
 				50D6D8BF14A23FED0013BD1C /* OMGFoursquare.h */,
 				50D6D8C014A23FED0013BD1C /* OMGFoursquare.m */,
 				50D6D8BD14A23FED0013BD1C /* Supporting Files */,
+				5076E09C14A3A5FA005307AF /* OMGFoursquareResponse.h */,
+				5076E09D14A3A5FA005307AF /* OMGFoursquareResponse.m */,
 			);
 			path = OMGFoursquare;
 			sourceTree = "<group>";
@@ -112,25 +170,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		50D6D8D014A23FED0013BD1C /* OMGFoursquareTests */ = {
-			isa = PBXGroup;
-			children = (
-				50D6D8D614A23FED0013BD1C /* OMGFoursquareTests.h */,
-				50D6D8D714A23FED0013BD1C /* OMGFoursquareTests.m */,
-				50D6D8D114A23FED0013BD1C /* Supporting Files */,
-			);
-			path = OMGFoursquareTests;
-			sourceTree = "<group>";
-		};
-		50D6D8D114A23FED0013BD1C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				50D6D8D214A23FED0013BD1C /* OMGFoursquareTests-Info.plist */,
-				50D6D8D314A23FED0013BD1C /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,12 +177,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5076E09E14A3A5FA005307AF /* OMGFoursquareResponse.h in Headers */,
+				5076E0A414A3F454005307AF /* OMGFoursquare.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		5076E06E14A28543005307AF /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5076E08114A28543005307AF /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				5076E06B14A28543005307AF /* Sources */,
+				5076E06C14A28543005307AF /* Frameworks */,
+				5076E06D14A28543005307AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5076E0A614A3F46A005307AF /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 5076E06F14A28543005307AF /* Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
 		50D6D8B614A23FED0013BD1C /* OMGFoursquare */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50D6D8DB14A23FED0013BD1C /* Build configuration list for PBXNativeTarget "OMGFoursquare" */;
@@ -160,25 +219,6 @@
 			productName = OMGFoursquare;
 			productReference = 50D6D8B714A23FED0013BD1C /* libOMGFoursquare.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		50D6D8C614A23FED0013BD1C /* OMGFoursquareTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50D6D8DE14A23FED0013BD1C /* Build configuration list for PBXNativeTarget "OMGFoursquareTests" */;
-			buildPhases = (
-				50D6D8C214A23FED0013BD1C /* Sources */,
-				50D6D8C314A23FED0013BD1C /* Frameworks */,
-				50D6D8C414A23FED0013BD1C /* Resources */,
-				50D6D8C514A23FED0013BD1C /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50D6D8CE14A23FED0013BD1C /* PBXTargetDependency */,
-			);
-			name = OMGFoursquareTests;
-			productName = OMGFoursquareTests;
-			productReference = 50D6D8C714A23FED0013BD1C /* OMGFoursquareTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,70 +241,59 @@
 			projectRoot = "";
 			targets = (
 				50D6D8B614A23FED0013BD1C /* OMGFoursquare */,
-				50D6D8C614A23FED0013BD1C /* OMGFoursquareTests */,
+				5076E06E14A28543005307AF /* Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50D6D8C414A23FED0013BD1C /* Resources */ = {
+		5076E06D14A28543005307AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D6D8D514A23FED0013BD1C /* InfoPlist.strings in Resources */,
+				5076E07A14A28543005307AF /* InfoPlist.strings in Resources */,
+				5076E09014A29959005307AF /* user.json in Resources */,
+				50E1B3EB14A62290008F1A82 /* user_failed.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		50D6D8C514A23FED0013BD1C /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
+/* Begin PBXSourcesBuildPhase section */
+		5076E06B14A28543005307AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
+				5076E07C14A28543005307AF /* main.m in Sources */,
+				5076E08714A2884D005307AF /* OMGFoursquareTest.m in Sources */,
+				5076E0A214A3EA4A005307AF /* OMGFoursquareResponseTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		50D6D8B314A23FED0013BD1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				50D6D8C114A23FED0013BD1C /* OMGFoursquare.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50D6D8C214A23FED0013BD1C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50D6D8D814A23FED0013BD1C /* OMGFoursquareTests.m in Sources */,
+				5076E09F14A3A5FA005307AF /* OMGFoursquareResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		50D6D8CE14A23FED0013BD1C /* PBXTargetDependency */ = {
+		5076E0A614A3F46A005307AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 50D6D8B614A23FED0013BD1C /* OMGFoursquare */;
-			targetProxy = 50D6D8CD14A23FED0013BD1C /* PBXContainerItemProxy */;
+			targetProxy = 5076E0A514A3F46A005307AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		50D6D8D314A23FED0013BD1C /* InfoPlist.strings */ = {
+		5076E07814A28543005307AF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				50D6D8D414A23FED0013BD1C /* en */,
+				5076E07914A28543005307AF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -272,6 +301,81 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5076E08214A28543005307AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C33E3CCEEB43EB9E939418 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/../gh-unit/Project-iOS/build/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/Libraries/Headers\"",
+					"\"$(PODS_ROOT)/Headers\"",
+					"\"$(PODS_ROOT)/Headers/AFNetworking\"",
+					"\"$(PODS_ROOT)/Headers/JSONKit\"",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/Libraries\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5076E08314A28543005307AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C33E3CCEEB43EB9E939418 /* Pods.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/../gh-unit/Project-iOS/build/Framework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_DIR)/Libraries/Headers\"",
+					"\"$(PODS_ROOT)/Headers\"",
+					"\"$(PODS_ROOT)/Headers/AFNetworking\"",
+					"\"$(PODS_ROOT)/Headers/JSONKit\"",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(PROJECT_DIR)/Libraries\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"$(PROJECT_DIR)/Libraries/libOCMock.a",
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		50D6D8D914A23FED0013BD1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -316,10 +420,12 @@
 		};
 		50D6D8DC14A23FED0013BD1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C33E3CCEEB43EB9E939418 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/OMGFoursquare.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OMGFoursquare/OMGFoursquare-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -332,45 +438,25 @@
 				DSTROOT = /tmp/OMGFoursquare.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OMGFoursquare/OMGFoursquare-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		50D6D8DF14A23FED0013BD1C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OMGFoursquare/OMGFoursquare-Prefix.pch";
-				INFOPLIST_FILE = "OMGFoursquareTests/OMGFoursquareTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		50D6D8E014A23FED0013BD1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OMGFoursquare/OMGFoursquare-Prefix.pch";
-				INFOPLIST_FILE = "OMGFoursquareTests/OMGFoursquareTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5076E08114A28543005307AF /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5076E08214A28543005307AF /* Debug */,
+				5076E08314A28543005307AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		50D6D8B114A23FED0013BD1C /* Build configuration list for PBXProject "OMGFoursquare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -387,14 +473,7 @@
 				50D6D8DD14A23FED0013BD1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		50D6D8DE14A23FED0013BD1C /* Build configuration list for PBXNativeTarget "OMGFoursquareTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50D6D8DF14A23FED0013BD1C /* Debug */,
-				50D6D8E014A23FED0013BD1C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface OMGFoursquare : NSObject
-
++ (OMGFoursquare *)sharedInstance;
 @end
